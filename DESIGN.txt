@@ -1,0 +1,21 @@
+this is where I will write about the functions that make me nervous:
+
+1) I almost did not initially know where to put moveToNotFull because it had two
+   entity objects, but I chose entity
+
+2) I decided to put adjacent in Point, although could have remained in Functions
+
+3) Will not move loadImages or load from Functions because they use Scanner.java's data the most,
+   which is a pre-made class that uses data from an interface
+
+4) I decided to keep parse* in Functions, because it doesn't use much of the input's data
+
+5) I decided to keep create* in Functions, because it doesn't use much of the input's data
+
+6) Will not move processImageLine, getImages or setAlpha from Functions because they use
+   PApplet.java's and PImage.java's data the most, which are pre-made classes that uses data
+   from an interface
+
+7) Moved NearestEntity to WorldModel because WorldModel is the only class that uses this method.
+
+8) Didn't move distance_squared because it is very general, did not seem valuable to refactor
